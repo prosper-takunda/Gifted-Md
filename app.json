@@ -28,7 +28,7 @@
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
@@ -42,22 +42,22 @@
     "BOT_NAME" : {
 
       "description":"put A name for your bot",
-      "value":"GIFTED-MD",
+      "value":"Prosper_md",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
 
-      "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg",
-      "required":false
+      "description":"add one or many link for your bot menu  ;https://chat.whatsapp.com/BCXbCReDqYx4wDslM55cMt ",
+      "value":"https://chat.whatsapp.com/BCXbCReDqYx4wDslM55cMt",
+      "required":true
 
      },
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
-      "required":false
+      "value":"yes",
+      "required":true
     }
         ,
     "HEROKU_API_KEY": {
@@ -72,14 +72,14 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with Gifted;;; or GIFTED;;; or SESSION_",   
-      "value":"",
+      "value":"Gifted;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUJIZFJueXVBckptMHJOWlZoTy9MSkJzVUpMMzQvdG9RRTMrL1RoSTlGMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQnBUTVlSQnVFcUNoVXdrSU8xZ3dzRXRzaG43dVJ4NE53WlB4NWVmbk1oWT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJtTnpBbjJJZUx4TkU3TkRnd3RMMk5PR1k4MTRCdVA2eWxnRUdtZVpnTFhnPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJmYXg4dUllelZ5L1J0NUx2OXpLK3o0eE9kWnlpeDdicHdRdDE0RnN1RG1BPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZPS2tLSS8wS3NCUW1Cek4yNWd0bitXbVA3Yys5bnR4MU1kcU9EMHN6SDQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ink4RmVJSHNHQnhpa0wrbmRtY3NZYzl1VE9Wd1hYR0ZWSHVvK0xuUy9Kd1E9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidUF2anh1NTZ6QTRDUGNOVTIwWThXWjcyRGZuVmhyR21TZ3ZveGdNQnUxVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWW5LNzlkMXdqOGFQTktKWC84UTgxdmwxc2NnbHUxaEt0VjNodlVXeER4ST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkMzNUt6bVZ6NnIwVml2R0xiS2RoWmhPajFXd2JheFR6NHVYc3loK0F2Qm5heHludUpJeTFNSlZIYUJUbnQwODRuUnVGbTdEc3ZnK052bWZ1Y3B1TGd3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTEyLCJhZHZTZWNyZXRLZXkiOiJkV05BWU5TS1NBSWtUSjNDbG1odmZFNG40RDlPWXhnQUtjb3A4WHRQL0VFPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJWRm5QLWRYUVFGZW9LdlR5LUltRDlRIiwicGhvbmVJZCI6ImI5MTg0NGNmLWJkY2ItNDVjMy05MWE2LWY0NjMwMGJjNGQ2YSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ3bFFFNTVaK0dvZXZKaWNqeW9rM040ZTNyT1E9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVVphNmJtRDhSWEVvdFJDYVMrRWlxTDBBUVBJPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IlpLR1ZZUkJRIiwibWUiOnsiaWQiOiIyNjM3MTIxMjUyMjE6OUBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDS0tGMzgwR0VObU0vN0lHR0FFZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiRlJidlp3Q2RzekpOZy9UcDJFRkEvV1N2RFFZeHBRTk9va3ZtOWU2eEprdz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiT2I5UnBUcWNENVJhc3dhSk5lS2NYMnh6aGEraUprWTZJQnYvc0ZLd2pyUDlMS3FTY1pRUzhESWU1bW5Dc0txaHh6dG53RzFBdENKbndPOUJ4WndDQ3c9PSIsImRldmljZVNpZ25hdHVyZSI6ImVPM25qc2FTNG9DVFZxZGtrK3RxSmJPenpjMWd2ZnRTaXFWcmc5N2ErQ1RYYmJmOGdyeWMrbDJKK09DOWNLQ0Zxb0M1UE5FMTMwMU1oVUphLzNQcWh3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjYzNzEyMTI1MjIxOjlAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCUlVXNzJjQW5iTXlUWVAwNmRoQlFQMWtydzBHTWFVRFRxSkw1dlh1c1NaTSJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxNzU1Mjc0NX0=",
       "required": true
 
     },
     "OWNER_NAME":
     {
 
-    "desc": "Your Name",
+    "desc": "Prosper",
     "required": false,
     "value": "Gifted Tech"
   },
@@ -88,7 +88,7 @@
 
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254728782591,254762016957"
+    "value": "263712125221,263713271179"
   },
     "WARN_COUNT":
   {
